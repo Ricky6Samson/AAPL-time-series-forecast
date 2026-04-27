@@ -30,11 +30,11 @@ Predict short-term stock returns using historical price data and evaluate real-w
 
 ## 📊 Key Insights
 
-* Stock returns are highly unpredictable, with near-zero correlation between predicted and actual values, confirming weak short-term directional signal.
-* Linear Regression performed better than XGBoost in MAE, showing that simple linear relationships capture most of the useful signal in engineered features.
-* XGBoost captured more variability but introduced noise, leading to higher error despite being a more complex model.
-* Low MAE (~0.8–1%) does not imply profitability, as even small prediction errors can lead to incorrect directional trading decisions.
-* Walk-forward validation provides a realistic evaluation of model performance by simulating real-time prediction conditions and avoiding data leakage.
+* Stock returns are very hard to predict, and the model predictions do not closely match actual values.
+* Linear Regression performed slightly better than XGBoost in terms of error, showing that simple models can work well for this problem.
+* XGBoost captured more variation in the data but also made more mistakes compared to Linear Regression.
+* Even though the error values are low, it does not mean the model can be used for profitable trading.
+* Walk-forward validation gave a more realistic evaluation since it simulates how predictions would work in real-time.
 ---
 ```
 ## 📁 Project Structure
