@@ -36,7 +36,7 @@ Predict short-term stock returns using historical price data and evaluate real-w
 *Low MAE (~0.8–1%) does not imply profitability, as even small prediction errors can lead to incorrect directional trading decisions.
 * Walk-forward validation provides a realistic evaluation of model performance by simulating real-time prediction conditions and avoiding data leakage.
 ---
-
+```
 ## 📁 Project Structure
 
 aapl-time-series-forecast/
@@ -64,7 +64,7 @@ aapl-time-series-forecast/
 ├── requirements.txt
 └── README.md
 
-
+```
 ---
 
 ## 🛠️ Tech Stack
