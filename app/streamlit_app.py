@@ -8,9 +8,9 @@ st.set_page_config(page_title="AAPL Forecasting", layout="centered")
 st.title("📈 AAPL Stock Return Forecasting")
 st.write("Simple ML model to predict next-day stock returns using Linear Regression and XGBoost.")
 
-df = pd.read_csv(r'C:\Users\CSC\Documents\New Portfolio\Time series\outputs\predictions.csv')
+df = pd.read_csv("outputs/predictions.csv")
 
-with open(r'C:\Users\CSC\Documents\New Portfolio\Time series\outputs\metrics.json', "r") as f:
+with open('outputs/metrics.json', "r") as f:
     metrics = json.load(f)
 
 
